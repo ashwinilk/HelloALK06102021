@@ -8,7 +8,7 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 		<http:listener-connection host="0.0.0.0" port="8081" />
 	</http:listener-config>
 	<flow name="hellotestrepoFlow" doc:id="96482f83-0de3-4e0a-91d4-1621e50c44f9" >
-		<http:listener doc:name="Listener" doc:id="f9fcc7ae-3164-4924-8eec-a9a6f8366088" config-ref="HTTP_Listener_config" path="/test"/>
+		<http:listener doc:name="Listener for hello" doc:id="f9fcc7ae-3164-4924-8eec-a9a6f8366088" config-ref="HTTP_Listener_config" path="/test"/>
 		<logger level="INFO" doc:name="Logger" doc:id="49990837-3d62-4f16-8940-0f950e9c5e50" />
 	</flow>
 </mule>
